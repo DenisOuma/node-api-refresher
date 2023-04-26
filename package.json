@@ -1,11 +1,15 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "This is a practice on  nodejs API",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Denis Ouma",
-  "license": "ISC"
+	"name": "server",
+	"version": "1.0.0",
+	"description": "This is a practice on  nodejs API",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node app.js"
+	},
+	"author": "Denis Ouma",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
 }
